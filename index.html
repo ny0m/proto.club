@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/static/src/img/lightning.svg">
+    <title>protoclub</title>
+    <meta name="description" content="Tech consulting and strategy">
+    <link rel="stylesheet" href="/static/dst/css/style.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div class="main card fixed block">
+        <div class="text-block">
+            <h1 class="loading">Hello</h1>
+            <p>I'm Brad.</p>
+            <p>I'm a consultant and programmer who excels at figuring out the simplest way to solve business
+                problems using software; this makes me most useful when involved in projects at a very early stage.</p>
+            <p>Because I'm relatively outgoing, have a wide range of interests, communicate well, and don't take myself
+                too seriously, I tend to connect easily with many people in an organisation, which enables me to be an
+                effective teammate and leader.</p>
+            <p>I've designed and built small and large and small systems from scratch; from fast proofs of concept to
+                stable services that serve millions of users.</p>
+            <hr>
+            <h1 class="loading">Selected work</h1>
+            <p>I've always aimed to work with interesting companies, and in interesting industries. Here are a few that
+                you might recognise:</p>
+            <div class="logos">
+                <div><img src="/static/src/img/luno.svg"/></div>
+                <div><img src="/static/src/img/edx.png"/></div>
+                <div><img src="/static/src/img/fraugster.svg"/></div>
+            </div>
+            <div class="logos">
+                <div><img src="/static/src/img/bain.png"/></div>
+                <div><img src="/static/src/img/pwc.png"/></div>
+                <div><img src="/static/src/img/abinbev.png"/></div>
+            </div>
+            <hr>
+            <h1 class="loading">Places to find me online</h1>
+            <p>The best way to contact me is by sending an email to <span id="contact"></span>.</p>
+            <p>I sometimes release code on my <a href="https://github.com/bradmerlin">GitHub</a>.</p>
+        </div>
+    </div>
+</div>
+<script>
+    const email = ["brad", "@", "proto", ".", "club"].join("");
+    document.getElementById("contact").innerHTML = "<a target='_blank' href=\"mailto:" + email + "\">" + email + "</a>";
+</script>
+</body>
+</html>

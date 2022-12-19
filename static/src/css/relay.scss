@@ -159,13 +159,13 @@ summary:focus {
   text-decoration: underline;
 }
 
-ol {
+ol, ul {
   text-align: left;
   line-height: 140%;
-}
 
-ol li {
-  margin-bottom: 10px;
+  li {
+    margin-bottom: 10px;
+  }
 }
 
 .uploader {
@@ -268,4 +268,9 @@ ol li {
   div {
     flex: 1;
   }
+}
+
+#availability {
+  font-weight: bold;
+  color: green;
 }

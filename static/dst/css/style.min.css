@@ -652,12 +652,11 @@ summary:focus {
   text-decoration: underline;
 }
 
-ol {
+ol, ul {
   text-align: left;
   line-height: 140%;
 }
-
-ol li {
+ol li, ul li {
   margin-bottom: 10px;
 }
 
@@ -757,6 +756,11 @@ ol li {
 }
 .logos div {
   flex: 1;
+}
+
+#availability {
+  font-weight: bold;
+  color: green;
 }
 
 /*# sourceMappingURL=style.min.css.map */

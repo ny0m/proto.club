@@ -765,4 +765,11 @@ ol li, ul li {
   color: #cd8822;
 }
 
+#me {
+  max-width: 40%;
+  float: right;
+  border-style: dashed;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=style.min.css.map */

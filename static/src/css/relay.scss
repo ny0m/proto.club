@@ -276,3 +276,10 @@ ol, ul {
   font-weight: bold;
   color: $highlight-colour;
 }
+
+#me {
+  max-width: 40%;
+  float: right;
+  border-style: dashed;
+  padding: 10px;
+}

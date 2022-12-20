@@ -499,18 +499,6 @@ body {
   margin-right: 15px;
 }
 
-h1 {
-  text-align: left;
-  margin-top: 0;
-}
-
-a {
-  transition: color 0.3s;
-}
-a:hover {
-  color: #cd8822;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -525,6 +513,18 @@ html, body {
   body {
     font-size: 0.9rem;
   }
+}
+
+h1 {
+  text-align: left;
+  margin-top: 0;
+}
+
+a {
+  transition: color 0.3s;
+}
+a:hover {
+  color: #cd8822;
 }
 
 img {
@@ -559,43 +559,6 @@ hr {
   border-bottom: 1px solid #cccccc;
 }
 
-summary:focus {
-  outline: none;
-}
-
-.td-content {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-}
-
-#copyButton {
-  width: 170px;
-}
-
-#qrCode img {
-  margin: 40px auto;
-}
-
-.title {
-  line-height: 170%;
-}
-
-.hidden {
-  display: none !important;
-}
-
-.logo {
-  width: 200px;
-  margin: 0 0 50px;
-}
-
-.drag-hover {
-  opacity: 0.3;
-  transition: opacity 0.5s;
-}
-
 .container {
   max-width: 750px;
   min-height: 100%;
@@ -605,10 +568,6 @@ summary:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.center {
-  text-align: center;
 }
 
 .main {
@@ -625,64 +584,6 @@ summary:focus {
   overflow: hidden;
   white-space: nowrap;
   text-align: left;
-}
-
-#description, #decrypting, #encrypting {
-  text-align: left;
-}
-
-.card.big {
-  margin-bottom: 30px;
-}
-
-#errorDetail {
-  text-align: center;
-}
-
-.modal .inner {
-  max-width: 400px;
-  padding: 0 20px;
-}
-
-.modal .block {
-  display: inline-block;
-}
-
-#helpModal h3 {
-  text-decoration: underline;
-}
-
-ol, ul {
-  text-align: left;
-  line-height: 140%;
-}
-ol li, ul li {
-  margin-bottom: 10px;
-}
-
-.uploader {
-  display: none;
-}
-
-#closeHelp {
-  margin-bottom: 20px;
-}
-
-.clickable {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.clickable img {
-  margin: 0 0 -7px;
-}
-
-.element-container {
-  display: block;
-}
-
-.element-container .block {
-  display: inline-block;
 }
 
 .loading:after {
@@ -770,6 +671,7 @@ ol li, ul li {
   float: right;
   border-style: dashed;
   padding: 10px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.min.css.map */

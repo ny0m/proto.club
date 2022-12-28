@@ -19,7 +19,7 @@ body {
   }
 }
 
-h1 {
+h1, h2, h3 {
   text-align: left;
   margin-top: 0;
 }
@@ -60,10 +60,25 @@ p {
   text-align: left;
 }
 
+ul {
+  padding-left: 25px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 140%;
+}
+
 hr {
+  clear: both;
   margin: 40px 20px;
   border: none;
   border-bottom: 1px solid #cccccc;
+}
+
+details {
+  text-align: left;
 }
 
 .container {
@@ -184,5 +199,5 @@ hr {
   float: right;
   border-style: dashed;
   padding: 10px;
-  margin-left: 10px;
+  margin: 0 0 20px 10px;
 }
